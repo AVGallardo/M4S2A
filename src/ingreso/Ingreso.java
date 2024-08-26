@@ -3,7 +3,7 @@ package ingreso;
 import java.util.Scanner;
 
 public class Ingreso {
-    public static void main(String[] args) {
+    public void Ingresado() {
 
         Scanner sc = new Scanner(System.in);
         String name;
@@ -22,7 +22,7 @@ public class Ingreso {
         respuesta(total, name);
     }
 
-    private static void respuesta(int total, String name) {
+    private void respuesta(int total, String name) {
         System.out.print("Estimade " + name + ", ");
         if (total <= 10000) {
             System.out.print("El pago será en efectivo.");
@@ -33,6 +33,5 @@ public class Ingreso {
         if (total > 20000 ) {
             System.out.print("El pago será con cheque.");
         }
-
     }
 }

@@ -4,16 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7f57789d-c75f-4ebd-a476-01a8aecdac4e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/M4S2A.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ingreso/Ingreso.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pago/Pago.java" afterDir="false" />
+    <list default="true" id="7f57789d-c75f-4ebd-a476-01a8aecdac4e" name="Changes" comment="Trabajo para pedir productos, sumarlos, entregar las opcion de pago que se daran por el precio total">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ingreso/Ingreso.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ingreso/Ingreso.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pago/Pago.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pago/Pago.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,6 +28,21 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;AVGallardo&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/AVGallardo/M4S2A.git&quot;,
+    &quot;accountId&quot;: &quot;8c0cbb9b-6ae5-47d1-984c-6985c53ba812&quot;
+  }
+}</component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 7
 }</component>
@@ -42,23 +52,24 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.Ingreso.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Pago.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;extract.method.default.visibility&quot;: &quot;private&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Ingreso.executor": "Run",
+    "Application.Main.executor": "Run",
+    "Application.Pago.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "extract.method.default.visibility": "private",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "D:/CURSOS/Talento Digital/Java/M4/S2 - Operadores/M4S2A/M4S2A",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="ingreso" />
@@ -101,8 +112,8 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.Main" />
-        <item itemvalue="Application.Ingreso" />
         <item itemvalue="Application.Pago" />
+        <item itemvalue="Application.Ingreso" />
       </list>
     </recent_temporary>
   </component>
@@ -123,10 +134,33 @@
       <option name="presentableId" value="Default" />
       <updated>1724644848080</updated>
       <workItem from="1724644849151" duration="5401000" />
+      <workItem from="1724650494868" duration="1208000" />
+      <workItem from="1724678643766" duration="1617000" />
     </task>
+    <task id="LOCAL-00001" summary="Trabajo para pedir productos, sumarlos, entregar las opcion de pago que se daran por el precio total">
+      <option name="closed" value="true" />
+      <created>1724650619953</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1724650619953</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Trabajo para pedir productos, sumarlos, entregar las opcion de pago que se daran por el precio total">
+      <option name="closed" value="true" />
+      <created>1724650731910</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1724650731910</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Trabajo para pedir productos, sumarlos, entregar las opcion de pago que se daran por el precio total" />
+    <option name="LAST_COMMIT_MESSAGE" value="Trabajo para pedir productos, sumarlos, entregar las opcion de pago que se daran por el precio total" />
   </component>
 </project>
